@@ -1,0 +1,6 @@
+export { default as Layout } from "./Layout"
+export { default as SectionTitle } from "./SectionTitle"
+export { default as SideTitle } from "./SideTitle"
+export { default as FeatureCard } from "./FeatureCard"
+export { default as Text } from "./Text"
+export { default as PricingCard } from "./PricingCard"
