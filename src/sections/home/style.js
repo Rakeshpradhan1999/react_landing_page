@@ -1,6 +1,7 @@
 import { makeStyles } from '@material-ui/core/styles'
 
 
+
 export const useStyles = makeStyles((theme) => ({
     root: {
         backgroundImage: "url(/assets/bg.png)",
@@ -20,6 +21,9 @@ export const useStyles = makeStyles((theme) => ({
                 display: "block",
                 fontWeight: 800,
                 fontSize: "60px",
+                [theme.breakpoints.down('md')]: {
+                    fontSize: "40px",
+                }
 
             }
         }

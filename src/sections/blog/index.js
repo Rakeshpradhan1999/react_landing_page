@@ -41,23 +41,19 @@ const BlogSLide = ({ classes }) => {
     return (
         <Swiper
             spaceBetween={20}
-
+            slidesPerView={1}
             breakpoints={{
-                "@0.00": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 10
-                },
-                "@0.75": {
+                "640": {
                     "slidesPerView": 2,
                     "spaceBetween": 20
                 },
-                "@1.00": {
+                "768": {
                     "slidesPerView": 3,
-                    "spaceBetween": 20
+                    "spaceBetween": 40
                 },
-                "@1.50": {
+                "1024": {
                     "slidesPerView": 3,
-                    "spaceBetween": 20
+                    "spaceBetween": 50
                 }
             }}
         >

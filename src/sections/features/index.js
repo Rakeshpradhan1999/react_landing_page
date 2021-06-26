@@ -39,7 +39,7 @@ const Index = () => {
     return (
         <Container>
             <div className={classes.root} style={theme.section} id="features">
-                <Grid container spacing={3}>
+                <Grid container spacing={3} item xs={12}>
                     <Grid item xs={12} sm={12} md={6} >
                         <Box className={classes.clientContent}>
                             <Typography variant="h3">We're Trusted by <span style={{ color: theme.palette.primary.main, fontSize: "30px" }}>2500+</span> Customer</Typography>
@@ -80,13 +80,9 @@ const Index = () => {
                                 </List>
                                 <BasicButton>Read More</BasicButton>
                             </div>
-
                         </Grid>
-
                     </Grid>
                 </Box>
-
-
             </div>
         </Container>
     )

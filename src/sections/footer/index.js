@@ -103,7 +103,7 @@ const LastGrid = ({ classes }) => (
         <List className={classes.contactList}>
             {
                 contactData.map((v, i) => (
-                    <ListItem key={i}>
+                    <ListItem key={i}   >
                         <ListItemIcon>
                             {v.icon}
                         </ListItemIcon>

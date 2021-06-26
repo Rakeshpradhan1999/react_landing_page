@@ -5,13 +5,21 @@ export const useStyles = makeStyles((theme) => ({
     root: {
         height: '60px',
         display: "flex",
+        alignItems: 'center',
         backgroundColor: "transparent",
+        transition: "all 0.5s",
 
     },
     activeRoot: {
         height: '60px',
         display: "flex",
-        backgroundColor: theme.palette.primary.maisn,
+        alignItems: 'center',
+        backgroundColor: theme.palette.secondary.main,
+        color: theme.color,
+        transition: "all 0.5s",
+        "& svg": {
+            color: theme.color
+        }
 
     },
     logo: {
